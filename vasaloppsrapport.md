@@ -1,12 +1,12 @@
 Vasaloppet - Mellantidsrekommendationer
 ================
 Olof Rännbäck Garpinger, Knightec AB, <olof.rannbackgarpinger@knightec.se>,
-28 February, 2018
+01 mars, 2018
 
 Förord
 ------
 
-Denna rapport sammanfattar data från Vasaloppen mellan åren 2012 och 2016. **Främsta målet är att presentera mellantidsrekommendationer givet en önskad övre sluttid.** Det vill säga, att med hjälp av enkla samband ge vasaloppsåkare tidsintervall inom vilka de bör nå kontrollerna i Smågan, Mångsbodarna, Risberg, Evertsberg, Oxberg, Hökberg, och Eldris, om de vill nå Mora innan en viss sluttid. Dessa föreslagna mellantider presenteras i tabeller i [kapitel 5](#mellantidsrekommendationer).
+Denna rapport sammanfattar data från Vasaloppen mellan åren 2012 och 2016. **Främsta målet är att presentera mellantidsrekommendationer givet en önskad övre sluttid.** Det vill säga, att med hjälp av enkla samband ge vasaloppsåkare tidsintervall inom vilka de bör nå kontrollerna i Smågan, Mångsbodarna, Risberg, Evertsberg, Oxberg, Hökberg, och Eldris, om de vill nå Mora innan en viss sluttid. Dessa föreslagna mellantider presenteras i tabeller i [kapitel V](#v---mellantidsrekommendationer).
 
 Typiska hastighetsprofiler för vasaloppsåkare med närliggande sluttider har också tagits fram, i jämförelse med medelhastigheten för övriga åkare med liknande målgångstider. Utöver detta kommer jag även att försöka besvara bl.a. följande frågor:
 
@@ -47,20 +47,20 @@ Innehållsförteckning
 
 [Förord](#förord)
 
-[1. Vasaloppsdata](#vasaloppsdata)
+[I - Vasaloppsdata](#i---vasaloppsdata)
 
-[2. Mellantider och sluttider från år till år](#mellantider-och-sluttider-från-år-till-år)
+[II - Mellantider och sluttider från år till år](#ii---mellantider-och-sluttider-från-år-till-år)
 
-[3. Sammanställning av klubbars medeltider i mål](#sammanställning-av-klubbars-medeltider-i-mål)
+[III - Sammanställning av klubbars medeltider i mål](#iii---sammanställning-av-klubbars-medeltider-i-mål)
 
-[4. Medeltider för skidåkare i olika åldersklasser](#medeltider-för-skidåkare-i-olika-åldersklasser)
+[IV - Medeltider för skidåkare i olika åldersklasser](#iv---medeltider-för-skidåkare-i-olika-åldersklasser)
 
-[5. Mellantidsrekommendationer](#mellantidsrekommendationer)
+[V - Mellantidsrekommendationer](#v---mellantidsrekommendationer)
 
-[6. Hastigheter för skidåkare med liknande tid i mål](#hastigheter-för-skidåkare-med-liknande-tid-i-mål)
+[VI - Hastigheter för skidåkare med liknande tid i mål](#vi---hastigheter-för-skidåkare-med-liknande-tid-i-mål)
 
-**1. Vasaloppsdata**
---------------------
+I - Vasaloppsdata
+-----------------
 
 Data från samtliga Vasalopp mellan 2012 och 2016 finns lagrade i csv-filer, vilket i princip betyder att den ligger sparad i fem stycken tabeller. En rad i data anger en enskild skidåkares personuppgifter (namn, klubb, startnummer, etc.) och prestation (mellantider och sluttid). Samtliga uppifter som skulle kunna peka ut enskild skidåkare har dock anonymiserats i denna rapport då jag endast är intresserad av titta på kollektiva mönster.
 
@@ -84,7 +84,7 @@ Om man beräknar tidsdifferensen mellan varje kontroll och lägger till uppgifte
 |          9| 2012 |                    10.33|                          15.01|                     14.31|                        11.82|                    13.61|                     10.07|                    11.60|                  12.48|
 |         10| 2012 |                    14.16|                          18.87|                     20.60|                        16.16|                    21.60|                     15.79|                    17.50|                  20.21|
 
-Sluttiderna (alltså tiderna i Mora) har även delats in i ett antal tidsgrupper om 15 minuter mellan varje. En grupp är t.ex. den med sluttider mellan 06:45:00 (timmar, minuter, sekunder) och 07:00:00. Denna grupp kommer jag fortsättningvis kalla gruppen som är i mål innan 07:00:00, t.ex. i mellantidsrekommenderingen i [kapitel 5](#mellantidsrekommendationer).
+Sluttiderna (alltså tiderna i Mora) har även delats in i ett antal tidsgrupper om 15 minuter mellan varje. En grupp är t.ex. den med sluttider mellan 06:45:00 (timmar, minuter, sekunder) och 07:00:00. Denna grupp kommer jag fortsättningvis kalla gruppen som är i mål innan 07:00:00, t.ex. i mellantidsrekommenderingen i [kapitel V](#v---mellantidsrekommendationer).
 
 I data från 2016 finns även uppgifter om genus (Man/Kvinna), åldersgrupp (12 grupper: 19-20, 21, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80-), och startgrupp (11 grupper från 0-10, där 0 är högst rankat och 10 är lägst rankat). Om jag tolkat åldersgrupperna korrekt så innehåller t.ex. grupp 21 alla åkare mellan 21 och 34 år, och så vidare.
 
@@ -96,12 +96,12 @@ I data från 2016 finns även uppgifter om genus (Man/Kvinna), åldersgrupp (12 
 |          4|  2016| Kvinna | 21          | 10         |
 |          5|  2016| Man    | 50          | 2          |
 
-Dessa uppgifter används nedan för att göra en lite mer utförlig analys av 2016 års data. Dessutom kan man beräkna hur mycket snabbare eller långsammare en skidåkare har åkt relativt övriga åkare i samma startgrupp. D.v.s. avgöra hur väl de har åkt jämfört med andra åkare som har liknande ambitionsnivå. Denna information har använts för att analysera mönster i skidåkarnas hastighetsprofiler (se [kapitel 6](#hastigheter-för-skidåkare-med-liknande-tid-i-mål)).
+Dessa uppgifter används nedan för att göra en lite mer utförlig analys av 2016 års data. Dessutom kan man beräkna hur mycket snabbare eller långsammare en skidåkare har åkt relativt övriga åkare i samma startgrupp. D.v.s. avgöra hur väl de har åkt jämfört med andra åkare som har liknande ambitionsnivå. Denna information har använts för att analysera mönster i skidåkarnas hastighetsprofiler (se [kapitel VI](#vi---hastigheter-för-skidåkare-med-liknande-tid-i-mål)).
 
 [Åter till innehållsförteckningen](#innehållsförteckning)
 
-**2. Mellantider och sluttider från år till år**
-------------------------------------------------
+II - Mellantider och sluttider från år till år
+----------------------------------------------
 
 Tabellen nedan innehåller uppgifter om hur medeltider vid varje kontroll och mål (i Mora) har varierat från år till år (i timmar:minuter:sekunder). Notera att endast skidåkare som tagit sig i mål funnits med i dessa uträkningar.
 
@@ -125,8 +125,8 @@ Nästa figur visar antalet skidåkare inom varje startgrupp som kommit i mål in
 
 [Åter till innehållsförteckningen](#innehållsförteckning)
 
-**3. Sammanställning av klubbars medeltider i mål**
----------------------------------------------------
+III - Sammanställning av klubbars medeltider i mål
+--------------------------------------------------
 
 Data innehåller samtliga skidåkares klubbtillhörighet, och jag har därför valt att beräkna medeltider i mål för samtliga klubbar med fler än 40 deltagare i de enskilda loppen. Att gränsen dragits vid just 40 deltagare beror på att jag velat begränsa antalet klubbar i de fem figurerna nedan, som visar medeltiderna för varje klubb. I figurerna kan man se att klubbar från södra Sverige (som t.ex. Lugi SK, och IFK Helsingborg) och klubbar med företagsnamn (som Volvo IF, IBM-klubben, etc.) typiskt har lite sämre medeltider i mål. Exempel på prominenta klubbar är Borås SK, Östersunds skidlöpareklubb, IKJ Haninge, Sundbybergs IK, Karlslunds IF SF, och IFK Mora SK. Överlag är det många storstadsklubbar representerade, vilket inte är så oväntat.
 
@@ -142,8 +142,8 @@ Data innehåller samtliga skidåkares klubbtillhörighet, och jag har därför v
 
 [Åter till innehållsförteckningen](#innehållsförteckning)
 
-**4. Medeltider för skidåkare i olika åldersklasser**
------------------------------------------------------
+IV - Medeltider för skidåkare i olika åldersklasser
+---------------------------------------------------
 
 Låt oss nu ta en titt på hur åldersfördelningen såg ut bland de som tog sig i mål i Vasaloppet 2016. Figuren nedan visar antalet skidlöpare i varje klass delat med antalet år åldersklassen spänner över. Åldersklassen *21* hade t.ex. 3676 skidlöpare som tog sig ända fram till Mora. Eftersom klassen spänner över 14 år (från 21-åringar till 34-åringar) så blir antalet skidåkare per antalet år i åldersklassen lika med 3676/14 = 262.6 stycken. Anledningen till denna indelning är att vissa åldersklasser spänner fler år än andra. Åldersklassen *80-* har jag för enkelhetens skull antagit spänna över 5 år, precis som de flesta övriga klasser.
 
@@ -169,8 +169,8 @@ Generellt sett ska man dock passa sig för att dra alltför långtgående slutsa
 
 [Åter till innehållsförteckningen](#innehållsförteckning)
 
-**5. Mellantidsrekommendationer**
----------------------------------
+V - Mellantidsrekommendationer
+------------------------------
 
 I detta kapitel ges rekommendationer på lämpliga mellantider givet en viss önskad tid i mål. Rekommendationstabellerna nedan kan även användas för att, givet en viss mellantid, hitta andra lämpliga mellantider och sluttid att sikta in sig på. På så vis kan man få tips om hur man bäst lägger upp sitt resterande lopp.
 
@@ -488,8 +488,8 @@ Om man granskar mellantiderna från år till år lite noggrannare kan man se att
 
 [Åter till innehållsförteckningen](#innehållsförteckning)
 
-**6. Hastigheter för skidåkare med liknande tid i mål**
--------------------------------------------------------
+VI - Hastigheter för skidåkare med liknande tid i mål
+-----------------------------------------------------
 
 Detta kapitel innehåller lite mer avancerad analys. Vi kommer titta lite mer på hur hastigheterna har varierat från år till år på de olika delsträckorna, och analysera hastighetsprofiler över hela banan. Tabellen nedan sammanställer medelfarten (i km/h) för samtliga delsträckor. De snabbaste sträckorna sett till alla år är: Smågan-Mångsbodarna, Mångsbodarna-Risberg, och Evertsberg-Oxberg. Klart långsammaste sträckan är start till Smågan, men det är inte så konstigt med tanke på stigningen upp till Smågan, samt den köbildning som uppstår där när tusentals åkare trängs om ett fåtal spår.
 
@@ -501,7 +501,7 @@ Detta kapitel innehåller lite mer avancerad analys. Vi kommer titta lite mer p�
 | 2015 |                      9.7|                           13.2|                      12.8|                         10.5|                     12.1|                       9.9|                     11.0|                   12.0|
 | 2016 |                      9.6|                           13.0|                      13.0|                         11.2|                     13.5|                      11.5|                     12.8|                   13.4|
 
-Härnäst kommer vi att titta på medelhastigheter för skidåkare med liknande tider i mål (se [kapitel 1](#vasaloppsdata) för förklaring till hur åkarna delades in i tidsgrupper). Första bilden här nedan visar hur medelhastigheten berodde av sluttiden under 2012 års Vasalopp. Dels kan man se att hastigheten mellan start och Smågan avtar snabbare än övriga kurvor med hänsyn till sluttid. Det antyder att det bara är de allra bästa åkarna som knappt påverkas av köbildningen vid start. En annan intressant tendens är den att hastigheterna avtog så markant mellan Mångsbodarna och Risberg för åkare med sluttid mellan 9 och 11 timmar. Min första gissning var att hastighetssänkningen kunde ha med följande vurpor att göra: <https://www.youtube.com/watch?v=LohiNobXNs0>. Men en mer insatt källa har berättat att denna backe kommer först efter Risberg, och skulle därmed inte ha kunnat påverka hastigheterna på sträckan fram till Risberg.
+Härnäst kommer vi att titta på medelhastigheter för skidåkare med liknande tider i mål (se [kapitel I](#i---vasaloppsdata) för förklaring till hur åkarna delades in i tidsgrupper). Första bilden här nedan visar hur medelhastigheten berodde av sluttiden under 2012 års Vasalopp. Dels kan man se att hastigheten mellan start och Smågan avtar snabbare än övriga kurvor med hänsyn till sluttid. Det antyder att det bara är de allra bästa åkarna som knappt påverkas av köbildningen vid start. En annan intressant tendens är den att hastigheterna avtog så markant mellan Mångsbodarna och Risberg för åkare med sluttid mellan 9 och 11 timmar. Min första gissning var att hastighetssänkningen kunde ha med följande vurpor att göra: <https://www.youtube.com/watch?v=LohiNobXNs0>. Men en mer insatt källa har berättat att denna backe kommer först efter Risberg, och skulle därmed inte ha kunnat påverka hastigheterna på sträckan fram till Risberg.
 
 ![](vasaloppsrapport_files/figure-markdown_github/avg_time_timegrpsmora_all_controls_2012-1.png)
 
